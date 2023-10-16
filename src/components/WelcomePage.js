@@ -7,7 +7,6 @@ import classes from './styles/WelcomePage.module.css';
 export default function WelcomePage() {
   return (
     <>
-      <Navigation />
       <div className={classes.background}>
         <div className="relative isolate px-6 lg:px-8">
           <div
@@ -76,7 +75,6 @@ export default function WelcomePage() {
 
       <AboutUs />
       <Feature />
-      <Footer />
     </>
   );
 }

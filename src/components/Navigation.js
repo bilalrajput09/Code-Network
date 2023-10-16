@@ -6,9 +6,9 @@ import Logo from '../assets/logo.png';
 
 const navigation = [
   { name: 'Developers', href: '#' },
-  { name: 'Features', href: '#' },
+  { name: 'Features', href: '/features' },
   { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '/' },
 ];
 
 const Navigation = () => {
