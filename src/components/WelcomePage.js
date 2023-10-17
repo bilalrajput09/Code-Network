@@ -1,7 +1,5 @@
 import AboutUs from './AboutUs';
 import Feature from './Feature';
-import Footer from './Footer';
-import Navigation from './Navigation';
 import classes from './styles/WelcomePage.module.css';
 
 export default function WelcomePage() {
