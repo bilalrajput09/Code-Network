@@ -22,10 +22,10 @@ const SignUp = () => {
               </label>
               <div className="mt-2">
                 <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  autoComplete="email"
+                  id="first_name"
+                  name="first_name"
+                  type="first_name"
+                  autoComplete="first_name"
                   required
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -34,17 +34,17 @@ const SignUp = () => {
 
             <div>
               <label
-                htmlFor="email"
+                htmlFor="last_name"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                Email address
+                Last Name
               </label>
               <div className="mt-2">
                 <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  autoComplete="email"
+                  id="last_name"
+                  name="last_name"
+                  type="last_name"
+                  autoComplete="last_name"
                   required
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -78,14 +78,6 @@ const SignUp = () => {
                 >
                   Password
                 </label>
-                <div className="text-sm">
-                  <a
-                    href="#"
-                    className="font-semibold text-indigo-600 hover:text-indigo-500"
-                  >
-                    Forgot password?
-                  </a>
-                </div>
               </div>
               <div className="mt-2">
                 <input
@@ -99,6 +91,26 @@ const SignUp = () => {
               </div>
             </div>
 
+            <div>
+              <div className="flex items-center justify-between">
+                <label
+                  htmlFor="password_confirmation"
+                  className="block text-sm font-medium leading-6 text-gray-900"
+                >
+                  Confirm Password
+                </label>
+              </div>
+              <div className="mt-2">
+                <input
+                  id="password_confirmation"
+                  name="password_confirmation"
+                  type="password_confirmation"
+                  autoComplete="current-password"
+                  required
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                />
+              </div>
+            </div>
             <div>
               <button
                 type="submit"
